@@ -18,7 +18,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo '📥 Cloning repository...'
-                git branch: 'main', url: 'https://github.com/your-repo-url/springboot-app.git'
+                git branch: 'main', url: 'https://github.com/Mekala-Selvakumar/jenkins-productservice.git'
             }
         }
 
