@@ -1,0 +1,178 @@
+2025-04-16 11:56:58 - Starting ProductserviceApplication using Java 17.0.12 with PID 23480 (D:\NESS-FSD-2025\Ness-Sts-workspace\productservice\target\classes started by R.Selvakumar in D:\NESS-FSD-2025\Ness-Sts-workspace\productservice)
+2025-04-16 11:56:58 - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-16 11:56:58 - No active profile set, falling back to 1 default profile: "default"
+2025-04-16 11:57:04 - Started ProductserviceApplication in 5.925 seconds (process running for 6.743)
+2025-04-16 11:58:54 - Method ProductController.getAllProduct() called with arguments: []
+2025-04-16 11:58:54 - Method getAllProduct Returning with value: [Product(productId=1, productName=Water Color, price=150), Product(productId=2, productName=Water Color, price=250), Product(productId=3, productName=Crayons, price=200), Product(productId=4, productName=Pencil Box, price=300), Product(productId=6, productName=Color Pecil, price=100), Product(productId=7, productName=Pen Set, price=175)]
+2025-04-16 11:58:54 - After :Method getAllProduct called
+2025-04-16 12:03:32 - Method ProductController.getProductById(..) called with arguments: [1]
+2025-04-16 12:03:32 - Method getProductById Returning with value: Product(productId=1, productName=Water Color, price=150)
+2025-04-16 12:03:32 - After :Method getProductById called
+2025-04-16 12:03:49 - Method ProductController.getProductById(..) called with arguments: [11]
+2025-04-16 12:03:49 - Method getProductById Returning with value: null
+2025-04-16 12:03:49 - After :Method getProductById called
+2025-04-16 12:08:48 - Starting ProductserviceApplication using Java 17.0.12 with PID 23480 (D:\NESS-FSD-2025\Ness-Sts-workspace\productservice\target\classes started by R.Selvakumar in D:\NESS-FSD-2025\Ness-Sts-workspace\productservice)
+2025-04-16 12:08:48 - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-16 12:08:48 - No active profile set, falling back to 1 default profile: "default"
+2025-04-16 12:08:50 - Started ProductserviceApplication in 1.635 seconds (process running for 712.784)
+2025-04-16 12:12:03 - Starting ProductserviceApplication using Java 17.0.12 with PID 23480 (D:\NESS-FSD-2025\Ness-Sts-workspace\productservice\target\classes started by R.Selvakumar in D:\NESS-FSD-2025\Ness-Sts-workspace\productservice)
+2025-04-16 12:12:03 - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-16 12:12:03 - No active profile set, falling back to 1 default profile: "default"
+2025-04-16 12:12:05 - Started ProductserviceApplication in 1.395 seconds (process running for 907.304)
+2025-04-16 12:12:53 - Starting ProductserviceApplication using Java 17.0.12 with PID 23480 (D:\NESS-FSD-2025\Ness-Sts-workspace\productservice\target\classes started by R.Selvakumar in D:\NESS-FSD-2025\Ness-Sts-workspace\productservice)
+2025-04-16 12:12:53 - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-16 12:12:53 - No active profile set, falling back to 1 default profile: "default"
+2025-04-16 12:12:55 - Started ProductserviceApplication in 1.522 seconds (process running for 957.643)
+2025-04-16 12:14:13 - Starting ProductserviceApplication using Java 17.0.12 with PID 23480 (D:\NESS-FSD-2025\Ness-Sts-workspace\productservice\target\classes started by R.Selvakumar in D:\NESS-FSD-2025\Ness-Sts-workspace\productservice)
+2025-04-16 12:14:13 - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-16 12:14:13 - No active profile set, falling back to 1 default profile: "default"
+2025-04-16 12:14:15 - Started ProductserviceApplication in 1.392 seconds (process running for 1037.546)
+2025-04-16 12:18:02 - Starting ProductserviceApplication using Java 17.0.12 with PID 23480 (D:\NESS-FSD-2025\Ness-Sts-workspace\productservice\target\classes started by R.Selvakumar in D:\NESS-FSD-2025\Ness-Sts-workspace\productservice)
+2025-04-16 12:18:02 - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-16 12:18:02 - No active profile set, falling back to 1 default profile: "default"
+2025-04-16 12:18:03 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'customOpenApiConfig' defined in file [D:\NESS-FSD-2025\Ness-Sts-workspace\productservice\target\classes\com\learn\productservice\CustomOpenApiConfig.class]: Failed to instantiate [com.learn.productservice.CustomOpenApiConfig$$SpringCGLIB$$0]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1343) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1228) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.4.jar:3.4.4]
+	at com.learn.productservice.ProductserviceApplication.main(ProductserviceApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.4.jar:3.4.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.learn.productservice.CustomOpenApiConfig$$SpringCGLIB$$0]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:222) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:122) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.2.5.jar:6.2.5]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The attribute license is undefined for the annotation type OpenAPIDefinition
+
+	at com.learn.productservice.CustomOpenApiConfig.<init>(CustomOpenApiConfig.java:23) ~[classes/:na]
+	at com.learn.productservice.CustomOpenApiConfig$$SpringCGLIB$$0.<init>(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:196) ~[spring-beans-6.2.5.jar:6.2.5]
+	... 26 common frames omitted
+2025-04-16 12:18:16 - Starting ProductserviceApplication using Java 17.0.12 with PID 23480 (D:\NESS-FSD-2025\Ness-Sts-workspace\productservice\target\classes started by R.Selvakumar in D:\NESS-FSD-2025\Ness-Sts-workspace\productservice)
+2025-04-16 12:18:16 - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-16 12:18:16 - No active profile set, falling back to 1 default profile: "default"
+2025-04-16 12:18:17 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'customOpenApiConfig' defined in file [D:\NESS-FSD-2025\Ness-Sts-workspace\productservice\target\classes\com\learn\productservice\CustomOpenApiConfig.class]: Failed to instantiate [com.learn.productservice.CustomOpenApiConfig$$SpringCGLIB$$0]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1343) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1228) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.4.jar:3.4.4]
+	at com.learn.productservice.ProductserviceApplication.main(ProductserviceApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.4.jar:3.4.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.learn.productservice.CustomOpenApiConfig$$SpringCGLIB$$0]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:222) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:122) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.2.5.jar:6.2.5]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ")" to complete Modifier
+
+	at com.learn.productservice.CustomOpenApiConfig.<init>(CustomOpenApiConfig.java:27) ~[classes/:na]
+	at com.learn.productservice.CustomOpenApiConfig$$SpringCGLIB$$0.<init>(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:196) ~[spring-beans-6.2.5.jar:6.2.5]
+	... 26 common frames omitted
+2025-04-16 12:19:40 - Starting ProductserviceApplication using Java 17.0.12 with PID 23480 (D:\NESS-FSD-2025\Ness-Sts-workspace\productservice\target\classes started by R.Selvakumar in D:\NESS-FSD-2025\Ness-Sts-workspace\productservice)
+2025-04-16 12:19:40 - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-16 12:19:40 - No active profile set, falling back to 1 default profile: "default"
+2025-04-16 12:19:41 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'customOpenApiConfig' defined in file [D:\NESS-FSD-2025\Ness-Sts-workspace\productservice\target\classes\com\learn\productservice\CustomOpenApiConfig.class]: Failed to instantiate [com.learn.productservice.CustomOpenApiConfig$$SpringCGLIB$$0]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1343) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1228) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.4.jar:3.4.4]
+	at com.learn.productservice.ProductserviceApplication.main(ProductserviceApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.4.jar:3.4.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.learn.productservice.CustomOpenApiConfig$$SpringCGLIB$$0]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:222) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:122) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.2.5.jar:6.2.5]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ")" to complete Modifier
+
+	at com.learn.productservice.CustomOpenApiConfig.<init>(CustomOpenApiConfig.java:24) ~[classes/:na]
+	at com.learn.productservice.CustomOpenApiConfig$$SpringCGLIB$$0.<init>(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:196) ~[spring-beans-6.2.5.jar:6.2.5]
+	... 26 common frames omitted
+2025-04-16 12:22:09 - Starting ProductserviceApplication using Java 17.0.12 with PID 36316 (D:\NESS-FSD-2025\Ness-Sts-workspace\productservice\target\classes started by R.Selvakumar in D:\NESS-FSD-2025\Ness-Sts-workspace\productservice)
+2025-04-16 12:22:09 - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-16 12:22:09 - No active profile set, falling back to 1 default profile: "default"
+2025-04-16 12:22:14 - Started ProductserviceApplication in 5.784 seconds (process running for 6.595)
+2025-04-16 12:24:23 - Starting ProductserviceApplication using Java 17.0.12 with PID 36316 (D:\NESS-FSD-2025\Ness-Sts-workspace\productservice\target\classes started by R.Selvakumar in D:\NESS-FSD-2025\Ness-Sts-workspace\productservice)
+2025-04-16 12:24:23 - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-16 12:24:23 - No active profile set, falling back to 1 default profile: "default"
+2025-04-16 12:24:24 - Started ProductserviceApplication in 1.599 seconds (process running for 137.102)
