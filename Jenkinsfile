@@ -22,7 +22,7 @@ pipeline {
             }
         }
 
-        stage('Start MySQL (Docker)') {
+       /* stage('Start MySQL (Docker)') {
             steps {
                 echo '🐬 Starting MySQL container...'
                 sh '''
@@ -31,7 +31,7 @@ pipeline {
                 sleep 25
                 '''
             }
-        }
+        }*/
 
         stage('Build') {
             steps {
