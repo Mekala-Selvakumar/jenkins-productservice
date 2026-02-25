@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        jdk 'open_JDK17'        // Name should match Global Tool Configuration
+        jdk 'openjdk-17'        // Name should match Global Tool Configuration
         maven 'MVN'             // Your configured Maven version
     }
 
