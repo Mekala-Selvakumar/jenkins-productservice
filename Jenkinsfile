@@ -8,7 +8,7 @@ pipeline {
 
     environment {
         DB_HOST = 'localhost'
-        DB_PORT = '3306'
+        DB_PORT = '3307'
         DB_NAME = 'nessdb'
         DB_USER = 'root'
         DB_PASS = 'root'
@@ -43,7 +43,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo '🧪 Running unit/integration tests...'
-                sh 'mvn test'
+                sh 'mvn test -Dspring.datasource.url=jdbc:mysql://localhost:3307/nessdb'
             }
         }
 
